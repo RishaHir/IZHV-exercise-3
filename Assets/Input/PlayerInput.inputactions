@@ -100,6 +100,28 @@
                     "isPartOfComposite": false
                 },
                 {
+                    "name": "",
+                    "id": "0c1507d7-af6c-4a4c-9f2a-2d57cdc6597e",
+                    "path": "<Keyboard>/leftBracket",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MyControllScheme",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2542c8d3-f2ec-4d92-8188-c2d2190a17ee",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
                     "name": "Keyboard",
                     "id": "d9879bd3-08fc-4e28-97bd-5ee14ec38be3",
                     "path": "2DVector",
@@ -122,12 +144,34 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "up",
+                    "id": "a3aa3b42-77d9-42f0-88a4-0e204ec7e6aa",
+                    "path": "<Keyboard>/u",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MyControllScheme",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "down",
                     "id": "0ec1275f-76f2-4807-842c-f5a36c7d477e",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
                     "groups": "M&K1",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "bc216fd7-de2e-4047-9623-49778c5ad0b0",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MyControllScheme",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -144,6 +188,17 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "left",
+                    "id": "991d04c7-7415-489f-a8c6-062c85dd08ce",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MyControllScheme",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "right",
                     "id": "939fe094-eeb2-4ad6-bd06-35ace6d2ea26",
                     "path": "<Keyboard>/d",
@@ -155,6 +210,28 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "right",
+                    "id": "37cda47a-ff95-42ec-9be8-9671d415cb12",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MyControllScheme",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "648f8116-13ea-4a93-887a-1bbfb5855ae8",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
                     "name": "",
                     "id": "73c0c27f-f796-424e-a561-f7a8a0074392",
                     "path": "<Mouse>/position",
@@ -164,6 +241,72 @@
                     "action": "Look",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b0aef52f-3005-4b5a-8cce-c8e004d821fb",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "2D Vector",
+                    "id": "f02115f8-30cb-4af7-810c-05f220a02434",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "ba7ac848-67be-4dfe-a3a3-e61f6fe74bd2",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MyControllScheme",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "6fd17359-dd3b-43be-9494-c29fddb12149",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MyControllScheme",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "dd412ed6-283c-4ea3-829e-cae5550e3fc2",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MyControllScheme",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "dc6fd003-7add-412b-8995-2d12d8f5e513",
+                    "path": "<Keyboard>/4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MyControllScheme",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 },
                 {
                     "name": "One Modifier",
@@ -182,7 +325,7 @@
                     "path": "<Keyboard>/shift",
                     "interactions": "",
                     "processors": "",
-                    "groups": "M&K1",
+                    "groups": "M&K1;Gamepad;M&K2;MyControllScheme",
                     "action": "Zoom",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -193,7 +336,7 @@
                     "path": "<Mouse>/scroll/y",
                     "interactions": "",
                     "processors": "",
-                    "groups": "M&K1",
+                    "groups": "M&K1;Gamepad;M&K2;MyControllScheme",
                     "action": "Zoom",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -204,7 +347,7 @@
                     "path": "<Keyboard>/f10",
                     "interactions": "",
                     "processors": "",
-                    "groups": "M&K1",
+                    "groups": "M&K1;Gamepad;M&K2;MyControllScheme",
                     "action": "ToggleDevUI",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -215,7 +358,7 @@
                     "path": "<Keyboard>/p",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "M&K1;Gamepad;M&K2;MyControllScheme",
                     "action": "ToggleDevUI",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -237,7 +380,7 @@
                     "path": "<Keyboard>/ctrl",
                     "interactions": "",
                     "processors": "",
-                    "groups": "M&K1",
+                    "groups": "M&K1;Gamepad;M&K2;MyControllScheme",
                     "action": "BulletCount",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -248,21 +391,10 @@
                     "path": "<Mouse>/scroll/y",
                     "interactions": "",
                     "processors": "",
-                    "groups": "M&K1",
+                    "groups": "M&K1;Gamepad;M&K2;MyControllScheme",
                     "action": "BulletCount",
                     "isComposite": false,
                     "isPartOfComposite": true
-                },
-                {
-                    "name": "",
-                    "id": "af599a86-0c65-4672-b65e-adb0534d0332",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "M&K1",
-                    "action": "ToggleShotgun",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 },
                 {
                     "name": "One Modifier",
@@ -281,7 +413,7 @@
                     "path": "<Keyboard>/alt",
                     "interactions": "",
                     "processors": "",
-                    "groups": "M&K1",
+                    "groups": "M&K1;Gamepad;MyControllScheme;M&K2",
                     "action": "ShotgunSpread",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -292,19 +424,63 @@
                     "path": "<Mouse>/scroll/y",
                     "interactions": "",
                     "processors": "",
-                    "groups": "M&K1",
+                    "groups": "M&K1;Gamepad;M&K2;MyControllScheme",
                     "action": "ShotgunSpread",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "",
-                    "id": "4933cd4e-7f8e-43f5-bb9b-9a40a207ff1d",
+                    "id": "bfdef0a8-07c4-4f70-8620-eef2cf356df8",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "ToggleInvincible",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b749160c-9a01-4352-943c-e926ac5f2fd8",
                     "path": "<Keyboard>/c",
                     "interactions": "",
                     "processors": "",
                     "groups": "M&K1",
                     "action": "ToggleInvincible",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "af599a86-0c65-4672-b65e-adb0534d0332",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "M&K1",
+                    "action": "ToggleShotgun",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "85ee5ee1-70ae-4c31-9176-f6bab2363a9e",
+                    "path": "<Keyboard>/rightBracket",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MyControllScheme",
+                    "action": "ToggleShotgun",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8ec3e567-350e-40a6-93a3-d0741b3d7254",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "ToggleShotgun",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -850,7 +1026,12 @@
             "devices": [
                 {
                     "devicePath": "<Gamepad>",
-                    "isOptional": false,
+                    "isOptional": true,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": true,
                     "isOR": false
                 }
             ]
@@ -867,6 +1048,22 @@
                 {
                     "devicePath": "<Mouse>",
                     "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "MyControllScheme",
+            "bindingGroup": "MyControllScheme",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": true,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": true,
                     "isOR": false
                 }
             ]

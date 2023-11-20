@@ -48,12 +48,6 @@ public class Enemy : MonoBehaviour
         var colliders = GetComponents<BoxCollider>();
         mBoxTrigger = colliders[0]; Assert.IsTrue(mBoxTrigger.isTrigger);
         mBoxCollider = colliders[1];
-
-        mNearestPlayer = GameManager.Instance.NearestPlayer(transform.position);
-        if (mNearestPlayer)
-        {
-            mPlayerTransform = mNearestPlayer.GetComponent<Transform>();
-        }
     }
 
     /// <summary>
@@ -82,6 +76,11 @@ public class Enemy : MonoBehaviour
          *    Use mRigidBody.MovePosition to move the enemy
          * Implement a simple AI, which will head towards the closest player and follow them.
          */
+        mNearestPlayer = GameManager.Instance.NearestPlayer(transform.position);
+        if (mNearestPlayer)
+        {
+            mPlayerTransform = mNearestPlayer.GetComponent<Transform>();
+        }
         if (mPlayerTransform)
         {
             Vector3 relativePosition =  mPlayerTransform.position - mRigidBody.position;
