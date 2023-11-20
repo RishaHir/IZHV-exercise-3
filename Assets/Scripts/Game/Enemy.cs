@@ -35,6 +35,8 @@ public class Enemy : MonoBehaviour
     /// </summary>
     private BoxCollider mBoxCollider;
 
+    private GameObject mNearestPlayer;
+    private Transform mPlayerTransform;
     /// <summary>
     /// Called when the script instance is first loaded.
     /// </summary>
@@ -46,6 +48,12 @@ public class Enemy : MonoBehaviour
         var colliders = GetComponents<BoxCollider>();
         mBoxTrigger = colliders[0]; Assert.IsTrue(mBoxTrigger.isTrigger);
         mBoxCollider = colliders[1];
+
+        mNearestPlayer = GameManager.Instance.NearestPlayer(transform.position);
+        if (mNearestPlayer)
+        {
+            mPlayerTransform = mNearestPlayer.GetComponent<Transform>();
+        }
     }
 
     /// <summary>
@@ -74,6 +82,12 @@ public class Enemy : MonoBehaviour
          *    Use mRigidBody.MovePosition to move the enemy
          * Implement a simple AI, which will head towards the closest player and follow them.
          */
+        if (mPlayerTransform)
+        {
+            Vector3 relativePosition =  mPlayerTransform.position - mRigidBody.position;
+            mRigidBody.rotation = Quaternion.LookRotation(relativePosition, Vector3.forward);
+            mRigidBody.MovePosition(mRigidBody.position + relativePosition.normalized * speed * Time.deltaTime);
+        }
     }
 
     /// <summary>
